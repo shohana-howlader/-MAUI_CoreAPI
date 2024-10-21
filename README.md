@@ -1,7 +1,3 @@
-Since I cannot directly access the contents of the `MAUI_CoreAPI.sln` file, I'll create a general README template for a .NET MAUI project with a Core API setup. You can modify or add specific details about your project afterward. Here's a draft:
-
----
-
 # MAUI Core API
 
 This project is a .NET MAUI application that integrates with a Core API backend. It is designed to work across multiple platforms, including Android, iOS, macOS, and Windows, providing a modern UI with cross-platform support.
@@ -12,7 +8,7 @@ This project is a .NET MAUI application that integrates with a Core API backend.
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
+- [Screenshots](#Screenshots)
 - [License](#license)
 
 ## Features
@@ -30,22 +26,16 @@ This project is a .NET MAUI application that integrates with a Core API backend.
 
 ## Installation
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/MAUI_CoreAPI.git
-    cd MAUI_CoreAPI
-    ```
-
-2. **Install dependencies**:
+1. **Install dependencies**:
    Open the solution file `MAUI_CoreAPI.sln` in Visual Studio and allow it to restore the necessary NuGet packages.
 
-3. **Platform-specific setup**:
+2. **Platform-specific setup**:
    - **Android**: Ensure you have an Android SDK installed.
    - **iOS**: You will need a macOS device with Xcode installed.
    - **Windows**: Windows SDK should be installed by default.
    - **macOS**: Ensure macOS SDK and related tools are installed.
 
-4. **Set up API keys** (if required):
+3. **Set up API keys** (if required):
    If your Core API requires API keys, place them in the appropriate configuration files, such as `appsettings.json` or environment variables.
 
 ## Usage
@@ -72,20 +62,16 @@ var content = new StringContent(JsonConvert.SerializeObject(data), Encoding.UTF8
 var response = await client.PostAsync("https://api.example.com/endpoint", content);
 ```
 
-## Contributing
+## Screenshots
+![Screenshot (54)](https://github.com/user-attachments/assets/88cba90f-e627-491b-a770-4ca4f96a9926)
 
-If you'd like to contribute, please follow these steps:
-1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Submit a pull request.
+![Screenshot (59)](https://github.com/user-attachments/assets/6c5bd8aa-9da3-44b5-8116-b8219801004b)
 
-We welcome contributions that improve the functionality and performance of the project!
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
 
-Let me know if you need any more specific details or if you'd like to adjust any sections!
+
+

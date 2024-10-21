@@ -64,6 +64,10 @@ var response = await client.PostAsync("https://api.example.com/endpoint", conten
 
 ## Screenshots
 ![Screenshot (54)](https://github.com/user-attachments/assets/88cba90f-e627-491b-a770-4ca4f96a9926)
+![Screenshot (55)1](https://github.com/user-attachments/assets/3f71344f-2e6a-4c12-84ed-8b6fc764ade9)
+![Screenshot (56)](https://github.com/user-attachments/assets/2ca53dd8-1762-4b8e-8298-7176c34c33de)
+
+
 
 ![Screenshot (59)](https://github.com/user-attachments/assets/6c5bd8aa-9da3-44b5-8116-b8219801004b)
 
